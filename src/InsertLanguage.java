@@ -16,46 +16,46 @@ public class InsertLanguage {
 		int i = 0;
 		for (i = 0; i < 100; i++) {
 		    line = br.readLine();
-			newLine = line + ",en-US";
+			newLine = line + ";en-US";
 			bw.write(newLine + "\n");
 		}
 		for (i = 100; i < 200; i++) {
 			line = br.readLine();
-			newLine = line + ",zh-CN";
+			newLine = line + ";zh-CN";
 			bw.write(newLine + "\n");
 		}
 		for (i = 200; i < 300; i++) {
 			line = br.readLine();
-			newLine = line + ",zh-HK";
+			newLine = line + ";zh-HK";
 			bw.write(newLine + "\n");
 		}
 		for (i = 300; i < 400; i++) {
 			line = br.readLine();
-			newLine = line + ",fr-FR";
+			newLine = line + ";fr-FR";
 			bw.write(newLine + "\n");
 		}
 		for (i = 400; i < 500; i++) {
 			line = br.readLine();
-			newLine = line + ",de-DE";
+			newLine = line + ";de-DE";
 			bw.write(newLine + "\n");
 		}
 		for (i = 500; i < 600; i++) {
 			line = br.readLine();
-			newLine = line + ",es-ES";
+			newLine = line + ";es-ES";
 			bw.write(newLine + "\n");
 		}
 		for (i = 600; i < 700; i++) {
 			line = br.readLine();
-			newLine = line + ",es-XL";
+			newLine = line + ";es-XL";
 			bw.write(newLine + "\n");
 		}
 		for (i = 700; i < 799; i++) {
 			line = br.readLine();
-			newLine = line + ",it-IT";
+			newLine = line + ";it-IT";
 			bw.write(newLine + "\n");
 		}
 		line = br.readLine();
-		newLine = line + ",it-IT";
+		newLine = line + ";it-IT";
 		bw.write(newLine);
 
 	in.close();

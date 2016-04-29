@@ -20,7 +20,7 @@ public class QueryRetrieval {
 		String searchURL = "http://hcc.engr.scu.edu/multilingual-search/PERMIA/search.php?";
 		int results = 50;
 		while ((line = br.readLine()) != null) {
-			String[] input = line.split(",");
+			String[] input = line.split(";");
 			String searchText = input[0];
 			String market = input[1];
 			String queryURL = searchURL + "searchText=" + searchText + "&source=Web&results=" 
